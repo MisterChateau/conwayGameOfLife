@@ -1,0 +1,44 @@
+main {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	background-color: #02547d;
+}
+
+canvas {
+	cursor: pointer;
+}
+
+body {
+	margin: 0;
+}
+
+div {
+	align-self: center;
+	cursor: painter;
+	max-width: 500px;
+	width: 100%;
+}
+
+.button {
+	user-select: none;
+	color: #a9e8dc;
+	background-color: #02bec4;
+	height: 40px;
+	width: 80px;
+	font-size: 30px;
+	text-align: center;
+	align-self: center;
+	box-shadow: 3px 0 0 #a9e8dc, 0 3px 0 #a9e8dc, -3px 0 0 #a9e8dc,
+		0 -3px 0 #a9e8dc;
+	cursor: pointer;
+	margin: 6px;
+}
+
+header {
+	display: flex;
+	align-self: center;
+	max-width: 500px;
+}

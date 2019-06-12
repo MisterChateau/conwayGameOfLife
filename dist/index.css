@@ -1,0 +1,41 @@
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #02547D;
+}
+
+body {
+  margin: 0;
+}
+
+div {
+  align-self: center;
+  cursor: painter;
+  max-width: 500px;
+  width: 100%;
+}
+
+.button {
+  user-select: none;
+  color: #A9E8DC;
+  background-color: #02BEC4;
+  height: 40px;
+  width: 80px;
+  font-size: 30px;
+  text-align: center;
+  align-self: center;
+  box-shadow: 3px 0 0 #A9E8DC, 0 3px 0 #A9E8DC, -3px 0 0 #A9E8DC, 0 -3px 0 #A9E8DC;
+  cursor: pointer;
+  margin: 6px;
+}
+
+header {
+  display: flex;
+  align-self: center;
+  max-width: 500px;
+}
+
+/*# sourceMappingURL=/index.css.map */
