@@ -1,6 +1,6 @@
 {
 	"name": "conway",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"private": true,
 	"dependencies": {
 		"konva": "^2.5.0"
